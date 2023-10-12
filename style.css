@@ -1,0 +1,58 @@
+/* Style the entire app container */
+#app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the input and button for task creation */
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the label for task filtering */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style the select box for task filtering */
+select {
+    padding: 5px;
+}
+
+/* Style the task list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
